@@ -21,7 +21,7 @@ h2 {
     background-color: #ffffff;
     float:right;
     width: 1000px;
-    margin: 20px;
+    margin: 10px;
 } 
 
 .bio-image {
@@ -29,6 +29,7 @@ h2 {
     width : 200px;
     float: left;
     margin: 20px;
+    
 }
 
 .bio-info, .contact-info{
@@ -40,13 +41,30 @@ h2 {
 .bio-info  {
     float: right;
     margin: 20px;
+    background-color: white;
+    width: 800px;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 100px;
+    float:left;
    
     
 }
 h3 {
-    padding-top: 60px;
+    padding-top: 10px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 
+.contact-info {
+    background-color: white;
+    width: 800px;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 10px;
+    float:left;
+}
 .footer {
     background-color: #777777;
     position: fixed;
@@ -54,7 +72,8 @@ h3 {
     bottom: 0;
     width: 100%;
     color: white;
-    padding-top: 40px;
     text-align: center;
+    border-top: solid #4aaaa5 10px;
+    padding: 20px;
 
 }
