@@ -1,16 +1,27 @@
-.navigationbar {
-    background-color: beige;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    padding: 20px;
-    margin: 20px;
+*{
+    margin: 0 auto;
+}
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/ricepaper.png');
+    margin: 0 auto;
+    width: 960px;
+    }
+
+h2 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
-a{
-    float:right;
+.navigationbar{
     color:black;
     font-size: 20px;
-    margin: 10px;
+    background-color: #ffffff;
+    float:right;
+    width: 1000px;
+    margin: 20px;
 } 
 
 .bio-image {
@@ -20,9 +31,30 @@ a{
     margin: 20px;
 }
 
+.bio-info, .contact-info{
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
 .bio-info  {
     float: right;
     margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+   
+    
+}
+h3 {
+    padding-top: 60px;
+}
+
+.footer {
+    background-color: #777777;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+
 }
