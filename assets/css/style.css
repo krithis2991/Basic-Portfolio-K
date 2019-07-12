@@ -1,6 +1,4 @@
-*{
-    margin: 0 auto;
-}
+
 body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,20 +6,38 @@ body {
     margin: 0 auto;
     width: 960px;
     }
-
-h2 {
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-
+.navigationbar{
+    overflow:hidden;
+    background-color:#ffffff;
+    padding: 20px 10px;
+    width:960px;
 }
 
-.navigationbar{
+.navigationbar a{
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 50px;
+        font-size: 18px; 
+        line-height: 25px;
+        border-radius: 4px;
+      }
+.name {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-weight:bold;
+    float:left;
+}
+
+.right-pane {
     color:black;
     font-size: 20px;
     background-color: #ffffff;
-    float:right;
-    width: 1000px;
-    margin: 10px;
+    float:none;;
+    width: 100%;
+    margin-left: 50px;
+    padding-left: 80px;
 } 
 
 .bio-image {
@@ -40,30 +56,55 @@ h2 {
 
 .bio-info  {
     float: right;
-    margin: 20px;
+    margin: 0px;
     background-color: white;
-    width: 800px;
-    border: 5px solid green;
-    padding: 50px;
-    margin: 100px;
+    width: 960px;
+    margin-top: 10px;
     float:left;
-   
-    
+    padding: 20px 10px;
 }
-h3 {
-    padding-top: 10px;
+h3 {            
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
 }
 
 .contact-info {
+    float: right;
+    margin: 0px;
     background-color: white;
-    width: 800px;
-    border: 5px solid green;
-    padding: 50px;
-    margin: 10px;
+    width: 960px;
+    margin-top: 10px;
     float:left;
+    padding: 20px 10px;
+    height: 350px;
+}
+button{
+    background:#4aaaa5;
+    height:25px;
+}
+
+img {
+    width: 100px;
+    height:100px;
+}
+
+.container{
+    background-color: white;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    border: 5px solid green;
+}
+.column{
+    float:left;
+    width: 25%;
+    padding: 10px;
+}
+.box6{
+    background:#4aaaa5;
+    width:100px;
+
 }
 .footer {
     background-color: #777777;
